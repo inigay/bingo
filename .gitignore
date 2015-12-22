@@ -2,6 +2,10 @@
 .env.*.php
 .env.php
 .env
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
 
 # =========================
 # Operating System Files
