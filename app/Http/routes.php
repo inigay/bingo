@@ -11,10 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', "GameRoomController@getRoom");
 
+Route::get('/game',"GameRoomController@getGame");
 /*
 |--------------------------------------------------------------------------
 | Application Routes
